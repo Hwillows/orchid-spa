@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.font1 {
+  font-family: "neue-haas-grotesk-display";
+}
+.font2 {
+  font-family: "ivypresto-display";
+  font-size: min(4vw, 60px);
+}
+
+.whitebrownbutton {
+  color: #915437;
+  fill: #915437;
+  border-color: #915437;
+  border-width: 2px;
+  border-radius: 2px;
+}
+
+.whitebrownbutton:hover {
+  color: white;
+  fill: white;
+  background-color: #915437;
+}
+.brownwhitebutton {
+  color: white;
+  fill: white;
+  border-color: white;
+  background-color: #915437;
+  border-width: 2px;
+  border-radius: 2px;
+}
+.brownwhitebutton:hover {
+  color: #915437;
+  fill: #915437;
+  background-color: white;
+  border-color: #915437;
+  border-width: 2px;
+  border-radius: 2px;
+}
+.whiteblackbutton {
+  color: black;
+  fill: black;
+  border-width: 2px;
+}
+
+.whiteblackbutton:hover {
+  color: white;
+  fill: white;
+  background-color: black;
+  border-width: 2px;
+  border-color: black;
+}

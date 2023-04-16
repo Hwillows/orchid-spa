@@ -1,0 +1,7 @@
+In terminal 
+npm install -D tailwindcss
+npx tailwindcss init
+npm install heroicons-react
+npm install flowbite flowbite-react
+npm install react-icons --save
+npm install tailwind-scrollbar-hide
