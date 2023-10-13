@@ -47,12 +47,12 @@ function Booking() {
           </div>
         </div>
       </div>
-      <div className="w-screen h-auto bg-[#915437]">
+      <div className="w-screen h-auto bg-[#9BB8D8]">
         <div className="flex flex-row">
           <div>
             <p className="font1 text-white text-start mx-20 my-10">Address</p>
             <h1 className="font2 text-white text-start mx-20 my-10">
-              Via Cristoforo Colombo,<br></br> 30 84017 Positano (SA) Italia
+              202 Main Street<br></br> Central Manchester
             </h1>
             <p className="font1 text-white text-start mx-20 my-10">
               Map and directions
@@ -61,13 +61,13 @@ function Booking() {
           <div className="mr-20">
             <p className="font1 text-white text-start mx-20 my-10">Contacts</p>
             <h1 className="font2 text-white text-start mx-20 my-10">
-              +39 088 877006<br></br>
-              info@hotelgarofano.it
+              +44 77 000 0000 <br></br>
+              info@orchidspa.com
             </h1>
           </div>
         </div>
         <div className="flex flex-row justify-between p-20">
-          <p className="font1 text-white">© 2021 Hotel Garofano – Legal</p>
+          <p className="font1 text-white">© 2023 Orchid Spa – Legal</p>
           <div className="flex flex-wrap justify-center gap-2">
             <button className=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
               <svg
@@ -104,7 +104,6 @@ function Booking() {
               </svg>
             </button>
           </div>
-          <p className="font1 text-white">Crafted with MadeByShape</p>
         </div>
       </div>
     </div>

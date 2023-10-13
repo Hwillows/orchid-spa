@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../images/logo.png";
+import orchidlogo from "../images/orchidlogo.png";
 
 function Banner() {
   return (
-    <div>
+    <div className="h-[30%]">
       <div className="flex flex-row justify-between">
         {/* div containing menu bar and language setting */}
         <div className="pl-20 pt-10">
@@ -13,6 +13,7 @@ function Banner() {
               <div className="flex flex-row">
                 <button>
                   <svg
+                    className="stroke-[#363B60]"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
                     width="16"
@@ -27,7 +28,7 @@ function Banner() {
 
                 <button
                   type="button"
-                  className="inline-flex w-full justify-center gap-x-1.5 px-3 py-2 text-sm font-semibold text-white"
+                  className="inline-flex w-full justify-center gap-x-1.5 px-3 py-2 text-sm font-semibold text-[#363B60]"
                   id="menu-button"
                   aria-expanded="true"
                   aria-haspopup="true"
@@ -39,6 +40,7 @@ function Banner() {
                     width="16"
                     height="16"
                     fill="white"
+                    className="stroke-[#363B60]"
                   >
                     <path d="M13.03 8.22a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L3.47 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l2.97 2.97V3.75a.75.75 0 0 1 1.5 0v7.44l2.97-2.97a.75.75 0 0 1 1.06 0Z"></path>
                   </svg>
@@ -49,8 +51,12 @@ function Banner() {
         </div>
 
         {/* div containing logo */}
-        <div className="">
-          <img className="h-[60%] w-auto" src={Logo} alt="logo"></img>
+        <div className="grid justify-items-stretch">
+          <img
+            className="h-[30%] w-auto justify-self-center"
+            src={orchidlogo}
+            alt="logo"
+          ></img>
         </div>
         {/* calender button */}
         <div className="static">

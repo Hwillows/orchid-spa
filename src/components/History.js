@@ -1,18 +1,14 @@
 import React from "react";
-import Header4 from "../images/header4.png";
-import Logolight from "../images/logolight.png";
-import Skybuilding from "../images/skybuilding.png";
+import hotstone from "../images/hotstone.png";
+import footmassage from "../images/footMassage.png";
 function History() {
   return (
     <div>
-      <div
-        className="static bg-no-repeat bg-left  w-screen"
-        style={{ backgroundImage: `url(${Logolight})` }}
-      >
+      <div>
         <div className=" grid justify-items-center m-20">
           <img
-            className=""
-            src={Header4}
+            className="w-[50%]"
+            src={hotstone}
             alt="Looking out to some boats on the sea"
           ></img>
         </div>
@@ -22,7 +18,7 @@ function History() {
           <div className="relative h-[40%] mb-20 ">
             <img
               className="w-full h-full "
-              src={Skybuilding}
+              src={footmassage}
               alt="white building in the sun"
             ></img>
             <div className="absolute"></div>
@@ -31,17 +27,16 @@ function History() {
         <div className="static w-[50%]">
           <div className="">
             <p className="font1 text-[#915437] text-start">Our History</p>
-            <h1 className="font2 text-start my-10 mr-20">
-              Named after the popular italian flower, the Carnation, Hotel
-              Garofano was designed with incredible attention to detail.
+            <h1 className="font2 text-start my-10 mr-20 text-[#363B60]">
+              Orchid Spa has been open since 2015. First located in Trafford and
+              moved to Central Manchester in 2022
             </h1>
           </div>
           <p className="font1 text-start mx-20 mb-5">
             Every element of your experience has been highly considered
-            throughout, blending history & contemporary design into your space
-            The hotel speaks for elegance and sopistication, with hints of
-            culture and history throughout, its stunning building speaks for
-            itself.
+            throughout, blending a relaxed & contemporary design. The hotel
+            speaks for elegance and sopistication, with hints of culture and
+            history throughout, its stunning building speaks for itself.
           </p>
           <div className="h-2"></div>
           <div className="flex flex-row">

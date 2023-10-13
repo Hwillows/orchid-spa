@@ -1,8 +1,8 @@
 import React from "react";
-import Classic from "../images/classicsuite.png";
-import Deluxe from "../images/deluxesuite.png";
-import Luxury from "../images/Luxurysuite.png";
-import Penthouse from "../images/penthouse.png";
+import Classic from "../images/room1.png";
+import Deluxe from "../images/room2.png";
+import Luxury from "../images/room4.png";
+import Penthouse from "../images/room3.png";
 
 function Rooms() {
   const slideLeft = () => {
@@ -15,7 +15,7 @@ function Rooms() {
   };
   return (
     <div>
-      <div className="bg-[#915437] w-screen">
+      <div className="bg-[#9BB8D8] w-screen">
         <div className="h-10"></div>
         <div className="flex flex-row justify-between mx-20">
           <h2 className="font2 text-white">Our Rooms & Suites</h2>

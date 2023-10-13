@@ -1,8 +1,7 @@
 import React from "react";
-import Mountainsea from "../images/mountainsea.png";
-import Buildingsea from "../images/buildingsea.png";
-import Tablesea from "../images/tablesea.png";
-import Header4 from "../images/header4.png";
+import pub from "../images/manchesterpub.png";
+import bar from "../images/bar.png";
+import shops from "../images/shops.png";
 
 function Discover() {
   return (
@@ -10,19 +9,16 @@ function Discover() {
       <div className="flex flex-row">
         <div className="w-[50%] m-20">
           <div className=" text-start">
-            <p className="font1 text-[#915437]">Discover Postiano</p>
-            <h1 className="font2 ">
-              You’re never more than a few minutes away from the vineyards &
-              beaches of Italy.
+            <p className="font1 text-[#915437]">Discover Manchester</p>
+            <h1 className="font2 text-[#363B60]">
+              You are only a walk away from lots of great places in Manchester
             </h1>
           </div>
           <p className="font1 ml-20 mt-10 text-start leading-loose">
-            Positano regularly appears at the top of “Best City in the World”
-            lists, and for many good reasons. Nowhere else will you find natural
-            grandeur, picture-perfect destinations, culinary adventures, and
-            urban energy in such close proximity. There is so much to see and do
-            in Positano, and we hope you’ll give yourself enough time to revel
-            in it.
+            The staff are very knowledgeable on the local area and would love to
+            give you recommendations on places to go. There are plenty of
+            resturants, bars and activities within a 10 minute walk. The tram is
+            a 5 minute walk away, that can link you all over Greater Manchester.
           </p>{" "}
           <div className="h-2"></div>
           <div className="flex flex-row">
@@ -39,15 +35,15 @@ function Discover() {
                   <path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06Z"></path>
                 </svg>
                 <div className="p-1"></div>
-                Disover Postiano
+                Disover Manchester
               </div>
             </button>
           </div>
         </div>
         <div className="max-w-[30%] my-10 mr-20">
           <img
-            className="w-full  "
-            src={Mountainsea}
+            className="w-full rounded-lg"
+            src={pub}
             alt="white building in the sun"
           ></img>
         </div>
@@ -55,12 +51,12 @@ function Discover() {
       <div className="flex flex-row justify-between place-items-center m-20">
         <img
           className="w-[40%]"
-          src={Buildingsea}
+          src={bar}
           alt="Looking out to sea, building across costline"
         ></img>
         <img
           className="w-[30%]"
-          src={Tablesea}
+          src={shops}
           alt="View from white table looking over sea"
         ></img>
       </div>
@@ -70,18 +66,16 @@ function Discover() {
           <p className="font1 text-[#915437] text-start mb-4">
             Kick back and put your feet up
           </p>
-          <h1 className="font2 text-start">
-            Discover astonishing<br></br> views of the rugged<br></br> natural
-            landscape.
+          <h1 className="font2 text-[#363B60] text-start">
+            Discover the benefits<br></br>of massage with natural<br></br>
+            essencial oils.
           </h1>
         </div>
         <div className="w-[50%] place-items-left">
           <p className="font1 mr-30 mb-5 text-start text-[#383838] leading-loose mr-20">
-            Hotel Garofano features a shared outdoor relaxation area with sun
-            loungers, wet lounge, braai area, solar-heated saltwater infinity
-            pool, and a well-stocked honesty bar for when you feel like getting
-            out and about with other guests. Our philosophy is that a gorgeous
-            sunset is best when shared.
+            Orchid Spa features a shared heated rooftop pool and rooftop bar, a
+            luxurious indoor pool, a sauna and steam room, and break out lounge
+            rooms with unlimited supply of herbal teas
           </p>{" "}
           <div className="h-2"></div>
           <div className="flex flex-row">
@@ -98,7 +92,7 @@ function Discover() {
                   <path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06Z"></path>
                 </svg>
                 <div className="p-1"></div>
-                Things to do
+                View Gallery
               </div>
             </button>
           </div>
